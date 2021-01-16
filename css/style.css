@@ -127,10 +127,6 @@ body {
   height: 116px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding-top: 10px;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 .header__top .container {
@@ -144,11 +140,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-}
-
-.header__top._active {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .header__logo {
